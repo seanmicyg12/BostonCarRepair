@@ -1,0 +1,104 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Bay Auto Body | Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(to bottom, #87CEFA, #1E90FF);
+            color: #fff;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #495057;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+        .gallery-item {
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 10px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>South Bay Auto Body Image Gallery</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Reviews</a>
+        <a href="#">Contact Us</a>
+        <a href="#" class="active">Image Gallery</a>
+    </nav>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="image1.jpg" alt="Auto Body Repair 1">
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Auto Body Repair 2">
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Auto Body Repair 3">
+        </div>
+        <div class="gallery-item">
+            <img src="image4.jpg" alt="Auto Body Repair 4">
+        </div>
+        <div class="gallery-item">
+            <img src="image5.jpg" alt="Auto Body Repair 5">
+        </div>
+        <div class="gallery-item">
+            <img src="image6.jpg" alt="Auto Body Repair 6">
+        </div>
+        <div class="gallery-item">
+            <img src="image7.jpg" alt="Auto Body Repair 7">
+        </div>
+        <div class="gallery-item">
+            <img src="image8.jpg" alt="Auto Body Repair 8">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 South Bay Auto Body. All rights reserved.</p>
+        <p>Links: <a href="#" class="footer-link">Yelp</a> | <a href="#" class="footer-link">MapQuest</a> | <a href="#" class="footer-link">Carwise</a></p>
+    </footer>
+</body>
+</html>
